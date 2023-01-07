@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+header {
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+/* banner style */
+.banner-title {
+
+    width: 525px;
+
+    margin-top: 40px;
+    margin-left: 600px;
+    margin-right: 230px;
+    position: absolute;
+    text-align: right;
+}
+
+.banner-heading {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: right;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 15px;
+}
+
+.btn-primary {
+    width: 130px;
+    height: 54px;
+    background-color: #F15B22;
+    padding: 5px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* failure section style */
+.failure-container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.description-div {
+    margin-top: 150px;
+    padding-top: 100px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.fail-title {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.failure-description {
+    color: #444343;
+    padding: 10px;
+
+}
+
+ul li {
+    padding: 5px;
+    list-style: none;
+    color: #444343;
+
+}
+
+.fa-solid,.fa-check {
+    color: greenyellow;
+}
+
+/* plan style */
+
+.plan-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.plan-title {
+    
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-img {
+    height: 90px;
+    width: 90px;
+}
+
+.plan-heading {
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-subhead{
+    color:#444343
+}
+/* footer style */
+footer{
+    margin-top: 80px;
+    background-color: black;
+    color:white;
+    padding-bottom: 30px;;
+}
+.footer-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.contacts{
+    width: 420px;
+    
+
+}
+.contacts h2{
+    font-weight: 700;
+    font-size: 45px;
+    padding: 10px;
+}
+.contacts p{
+    padding: 10px;
+    text-align: justify;
+}
+.subscriber-info{
+    margin-top: 30px;
+    display: block;
+    b
+    width: 330px;
+}
+input{
+    display: block;
+    margin-top: 30px;
+}
+label{
+    
+    font-weight: 600;
+    font-size: 25px;
+}
+input[type="email"]{
+    width: 180px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color:#F15B22;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.social-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+/* Bonus styling*/
+.watch{
+    width: 800px;
+    height: 210px;
+    background-image: url('../images/watch.png'), linear-gradient(to right,#F15B22,white);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position:center;
+    margin-left: 180px;
+    border-radius: 5px;
+}
+.positive-text{
+    width: 460px;
+    height: 190px;
+    padding: 30px;
+    padding-left: 35px;
+}
+.positive-text h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 25px;
+}
+.positive-text button{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    font-weight: bold;
+
+}
+/*nav section style*/
+.navigation{
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    gap: 30px;
+    padding-top: 80px;
+    padding-right: 40px;
+}
+.navigation ul li{
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color:inherit;
+    border: 2px solid gray ;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li a:hover{
+    color: darkgreen;
+    border: 3px solid darkgreen;
+}
